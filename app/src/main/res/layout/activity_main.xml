@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        />
+
+    <TextView
+        android:id="@+id/tv_temp"
+        android:layout_width="183dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="94dp"
+        android:hint="Sıcaklık"
+        android:text="15"
+        android:textSize="100dp" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="201dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/toolbar_main"
+        android:gravity="right"
+        android:hint="tarih"
+        android:text=""
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="123dp"
+        android:gravity="center"
+        android:hint="hava durum"
+        android:text=""
+        android:textSize="25dp" />
+
+    <ImageButton
+        android:id="@+id/addbttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="22dp"
+        app:srcCompat="@android:drawable/ic_menu_add" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tv_temp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tv_min"
+        android:layout_width="172dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="false"
+        android:layout_alignStart="@+id/tv_max"
+        android:layout_marginTop="106dp"
+        android:gravity="center"
+        android:hint="min"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tv_max"
+        android:layout_width="173dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="false"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="144dp"
+        android:gravity="center"
+        android:hint="max"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tv_humidty"
+        android:layout_width="221dp"
+        android:layout_height="31dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/tv_desc"
+        android:layout_marginBottom="168dp"
+        android:gravity="center"
+        android:text=""
+        android:hint="Nem"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/konum"
+        android:layout_width="212dp"
+        android:layout_height="46dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginEnd="-154dp"
+        android:layout_toStartOf="@+id/tv_desc"
+        android:text=""
+        android:hint="konum"/>
+</RelativeLayout>

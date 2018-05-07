@@ -1,0 +1,66 @@
+﻿[
+
+	{
+		"id": 306569,
+		"name": "Konya",
+		"country": "TR",
+		"coord": {
+			"lon": 32.5,
+			"lat": 38.166672
+		}
+	},
+	{
+		"id": 311071,
+		"name": "Isparta",
+		"country": "TR",
+		"coord": {
+			"lon": 31,
+			"lat": 38
+		}
+	},
+	{
+		"id": 314829,
+		"name": "Gaziantep",
+		"country": "TR",
+		"coord": {
+			"lon": 37.333328,
+			"lat": 37.083328
+		}
+	},
+	{
+		"id": 740352,
+		"name": "Sakarya",
+		"country": "TR",
+		"coord": {
+			"lon": 30.58333,
+			"lat": 40.75
+		}
+	},
+	{
+		"id": 752850,
+		"name": "Adapazari",
+		"country": "TR",
+		"coord": {
+			"lon": 30.40333,
+			"lat": 40.78056
+		}
+	},
+	{
+		"id": 741763,
+		"name": "Maltepe",
+		"country": "TR",
+		"coord": {
+			"lon": 29.155069,
+			"lat": 40.935669
+		}
+	},
+	{
+		"id": 317106,
+		"name": "Denizli",
+		"country": "TR",
+		"coord": {
+			"lon": 29.06982,
+			"lat": 37.84016
+		}
+	}
+	]
